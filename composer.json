@@ -1,0 +1,32 @@
+{
+    "name": "aleron75/mage2hints",
+    "description": "A Magento 2 extension that provides some useful debug information while developing",
+    "type": "magento2-module",
+    "version": "0.1.0",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alessandro Ronchi",
+            "email": "aleron75@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "~5.5.0|~5.6.0|~7.0.0",
+        "magento/framework": "~100.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "@stable"
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://repo.magento.com/"
+        }
+    ],
+    "autoload": {
+        "files": [ "registration.php" ],
+        "psr-4": {
+          "Aleron75\\Mage2Hints\\": "src/"
+        }
+    }
+}
