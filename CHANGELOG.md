@@ -8,6 +8,10 @@ code changes.
 
 For information about how to keep a change log please refer to http://keepachangelog.com/
 
+## [0.1.1] - 2016-03-10
+### Fixed
+- Fix typo in composer.json
+
 ## [0.1.0] - 2016-03-10
 ### Added
-- Basic extension files structure
+- Add basic extension files structure

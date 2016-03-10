@@ -2,7 +2,7 @@
     "name": "aleron75/mage2hints",
     "description": "A Magento 2 extension that provides some useful debug information while developing",
     "type": "magento2-module",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "license": "MIT",
     "authors": [
         {
@@ -24,7 +24,7 @@
         }
     ],
     "autoload": {
-        "files": [ "registration.php" ],
+        "files": [ "src/registration.php" ],
         "psr-4": {
           "Aleron75\\Mage2Hints\\": "src/"
         }
