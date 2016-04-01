@@ -6,7 +6,7 @@ the current viewed page.
    
 ## Installation
 
-### Composer
+### Install module
 You can install Magento 2 hints module through [composer](http://getcomposer.org/download/).
 
 First add the repository accessing through **HTTP** protocol:
@@ -51,6 +51,21 @@ Accessing through **SSH** protocol:
             "aleron75/mage2hints": "~1.0"
         }
     } 
+    
+Once you have added the module dependency, run the following command from your project root:
+    
+    composer update
+    
+### Enable module
+After the `composer update` finishes updating dependencies, run the following commands from your project root:
+ 
+    bin/magento module:enable Aleron75_Mage2Hints
+    bin/magento setup:upgrade
+    
+If you are in production mode, you also need to generate DI configuration and all non-existing interceptors and 
+factories through the following command:
+  
+    bin/magento setup:di:compile
 
 ## Usage
 To add layout handles and template hints to page as HTML comments simply add an `html` parameter to the URL like shown 

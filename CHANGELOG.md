@@ -8,6 +8,11 @@ code changes.
 
 For information about how to keep a change log please refer to http://keepachangelog.com/
 
+## [1.0.1] - 2016-04-01 - tagged
+### Fixed
+- Fix constructor parameter type
+- Improve installation instructions
+
 ## [1.0.0] - 2016-03-24 - tagged
 ### Added
 - Add LayoutInterface plugin

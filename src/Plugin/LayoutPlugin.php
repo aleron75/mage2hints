@@ -17,7 +17,7 @@ class LayoutPlugin
     private $attributes = ['name', 'alias', 'parent_name', 'type', 'template', 'template_path'];
 
     function __construct(
-        \Magento\Framework\App\Request\Http $request
+        \Magento\Framework\App\RequestInterface $request
     ) {
         $this->request = $request;
     }
