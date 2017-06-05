@@ -24,9 +24,9 @@
         }
     ],
     "autoload": {
-        "files": [ "src/registration.php" ],
+        "files": [ "registration.php" ],
         "psr-4": {
-          "Aleron75\\Mage2Hints\\": "src/"
+          "Aleron75\\Mage2Hints\\": ""
         }
     }
 }

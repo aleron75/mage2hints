@@ -8,6 +8,10 @@ code changes.
 
 For information about how to keep a change log please refer to http://keepachangelog.com/
 
+## Unreleased
+### Fixed
+- Move module directory to allow sample data installation
+
 ## [1.0.1] - 2016-04-01 - tagged
 ### Fixed
 - Fix constructor parameter type
