@@ -8,7 +8,7 @@ code changes.
 
 For information about how to keep a change log please refer to http://keepachangelog.com/
 
-## Unreleased
+## [1.0.2] - 2017-06-05 - tagged
 ### Fixed
 - Move module directory to allow sample data installation
 
