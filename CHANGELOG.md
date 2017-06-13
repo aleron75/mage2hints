@@ -8,6 +8,11 @@ code changes.
 
 For information about how to keep a change log please refer to http://keepachangelog.com/
 
+## [1.0.3] - 2017-06-13 - tagged
+### Updated
+- Update changelog for the release without the 'version' field from composer.json to avoid problems with composer
+- Refer to: https://stackoverflow.com/questions/36769404/what-is-the-meaning-of-version-field-in-composer-json
+
 ## [1.0.2] - 2017-06-05 - tagged
 ### Fixed
 - Move module directory to allow sample data installation
