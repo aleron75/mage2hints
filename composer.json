@@ -2,7 +2,6 @@
     "name": "aleron75/mage2hints",
     "description": "A Magento 2 extension that provides some useful debug information while developing",
     "type": "magento2-module",
-    "version": "1.0.1",
     "license": "OSL-3.0",
     "authors": [
         {
